@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>HOME</title>
+</head>
+<body>
+    
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Forgs%2Fgtech-mulearn%2Frepositories%3Flanguage%3Djavascript%26type%3Dall&psig=AOvVaw0jG-x2cj0dfR6z68T1rbJM&ust=1706890822476000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLDS0PjFioQDFQAAAAAdAAAAABAE" width="20%" height="30%">
+    
+    <center><h1 style="color:black;">BE A DONOR<br></h1><h1 style="color:#A80330;">SAVE LIVES...</h1>
+    <h2>Select any district of Kerala for blood donation:</h2>
+    <form action="/selection" method="post">
+        <select name="dropdown" id="dropdown" style="width: 300px; height:40px;">
+            <option value="Ernakulam">Ernakulam</option>
+            <option value="Thrissur">Thrissur</option>
+            <option value="Palakkad">Palakkad</option>
+        </select>
+        <br><br>
+        <button>Submit</button>
+    </form>
+    </center>
+</body>
+</html>
